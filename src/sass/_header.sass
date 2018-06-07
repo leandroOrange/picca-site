@@ -1,0 +1,86 @@
+/* Header Homer Global */  
+.Header
+  position: fixed
+  z-index: 10
+  width: 100%
+  top: 0
+  padding: 15px 0
+  background: rgba(255, 255, 255, 1)
+  &__innerWrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: relative
+  &__logo
+    a 
+      display: inline-block
+      h1 
+        position: relative
+        display: block
+        text-indent: 100%
+        white-space: nowrap
+        overflow: hidden
+        background: url(../img/global/logo-picca-negro.svg)
+        background-repeat: no-repeat
+        -webkit-background-size: 100% 100%
+        background-size: 100% 100%
+        width: 139px
+        height: 84px
+  &__menus      
+    font-size: 13px
+    text-transform: uppercase
+    font-family: $lato-regular
+
+#first-line
+  margin-bottom: 30px
+  text-align: right
+  ul 
+    li 
+      display: inline-block
+      margin-left: 40px 
+      a 
+        color: #000000
+      a.but-pedi
+        padding: 12px 42px 
+        color: #ffffff
+
+#nav
+  ul 
+    li 
+      display: inline-block
+      margin-left: 15px
+      a 
+        color: #000000
+
+/* Header Homer Custom */
+.Header--home
+  background: transparent
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, .6)
+    transform: translate3d(0, -100%, 0)
+    transition: transform .3s ease
+  .Header__logo
+    a 
+      h1
+        background: url(../img/global/logo-picca-blanco.svg)
+
+.Header--home #first-line
+  ul 
+    li 
+      a 
+        color: #ffffff
+
+.Header--home #nav
+  ul 
+    li 
+      a 
+        color: #ffffff
+
+.Header--home.show-back
+  &:before
+    transform: translate3d(0, 0, 0)
