@@ -1,2 +1,30 @@
-.text-black
-  color: #000000
+/*Uppercase*/
+%upper 
+  text-transform: uppercase
+
+.upper
+  @extend %upper   
+  
+%but
+  display: inline-block
+  background: $color-rojo
+  color: $color-blanco
+  padding: 8px 25px
+  border-radius: 25px
+  @extend %upper  
+  font-size: 14px
+  transition: background .3s ease, color .3s ease
+  letter-spacing: 1px
+  &:hover
+    background: darken($color-rojo, 15%)
+
+.but  
+  @extend %but
+
+
+/*Bold Text*/ 
+%f-bold
+  font-family: $lato-heavy 
+
+.f-bold
+  @extend %f-bold 

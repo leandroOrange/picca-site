@@ -4,7 +4,7 @@
   z-index: 10
   width: 100%
   top: 0
-  padding: 15px 0
+  padding: 23px 0
   background: rgba(255, 255, 255, 1)
   &__innerWrapper
     display: flex
@@ -12,45 +12,44 @@
     align-items: center
     position: relative
   &__logo
-    a 
-      display: inline-block
-      h1 
-        position: relative
-        display: block
-        text-indent: 100%
-        white-space: nowrap
-        overflow: hidden
-        background: url(../img/global/logo-picca-negro.svg)
-        background-repeat: no-repeat
-        -webkit-background-size: 100% 100%
-        background-size: 100% 100%
-        width: 139px
-        height: 84px
+    display: inline-block
+    position: relative
+    display: block
+    text-indent: 100%
+    white-space: nowrap
+    overflow: hidden
+    background: url(../img/global/logo-picca-negro.svg)
+    background-repeat: no-repeat
+    -webkit-background-size: 100% 100%
+    background-size: 100% 100%
+    width: 139px
+    height: 84px
+
+        
   &__menus      
     font-size: 13px
     text-transform: uppercase
     font-family: $lato-regular
 
-#first-line
+  
+.First-line
   margin-bottom: 30px
   text-align: right
-  ul 
-    li 
-      display: inline-block
-      margin-left: 40px 
-      a 
-        color: #000000
-      a.but-pedi
-        padding: 12px 42px 
-        color: #ffffff
+  &__item
+    display: inline-block
+    margin-left: 40px 
+  &__link  
+    color: $color-negro
+  a.but-pedi
+      @extend %but
+    
 
-#nav
-  ul 
-    li 
-      display: inline-block
-      margin-left: 15px
-      a 
-        color: #000000
+.Nav
+  &__item
+    display: inline-block
+    margin-left: 15px
+  &__link
+    color: $color-negro
 
 /* Header Homer Custom */
 .Header--home
@@ -65,21 +64,15 @@
     transform: translate3d(0, -100%, 0)
     transition: transform .3s ease
   .Header__logo
-    a 
-      h1
-        background: url(../img/global/logo-picca-blanco.svg)
+    background: url(../img/global/logo-picca-blanco.svg)
 
-.Header--home #first-line
-  ul 
-    li 
-      a 
-        color: #ffffff
+.Header--home .First-line
+  &__link  
+    color: $color-blanco
 
-.Header--home #nav
-  ul 
-    li 
-      a 
-        color: #ffffff
+.Header--home .Nav
+  &__link
+    color: $color-blanco
 
 .Header--home.show-back
   &:before
