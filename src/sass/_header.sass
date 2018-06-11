@@ -40,16 +40,37 @@
     margin-left: 40px 
   &__link  
     color: $color-negro
+    transition: opacity .3s $ease-links
+    &:hover
+      opacity: .6
+      color: $color-negro
   a.but-pedi
-      @extend %but
+     
     
 
 .Nav
   &__item
     display: inline-block
-    margin-left: 15px
+    margin-left: 25px
   &__link
     color: $color-negro
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      width: 100%
+      height: 1px
+      background: $color-rojo
+      bottom: 0
+      transform: translate3d(0, 10px, 0)
+      opacity: 0
+      transition: opacity .3s $ease-links, transform .3s $ease-links
+    &:hover:before
+      opacity: 1 
+      transform: translate3d(0, 5px, 0) 
+    &:hover
+      color: $color-negro  
+      
 
 /* Header Homer Custom */
 .Header--home
@@ -60,7 +81,7 @@
     top: 0
     width: 100%
     height: 100%
-    background: rgba(0, 0, 0, .6)
+    background: rgba(0, 0, 0, .8)
     transform: translate3d(0, -100%, 0)
     transition: transform .3s ease
   .Header__logo

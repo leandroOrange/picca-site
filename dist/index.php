@@ -13,11 +13,12 @@
   <body>
 
     <?php include 'templates/header.php';?>
+    <?php include 'templates/home/principal.php';?>
+    <?php include 'templates/home/lineas.php';?>
+    <?php include 'templates/home/picada-de-mes.php';?>
+    <?php include 'templates/home/banner-promo.php';?>
 
-    <div class="Principal-home"></div>
-
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
 
     <script src="assets/js/vendors/vendors.js"></script>
     <script src="assets/js/main.js"></script>

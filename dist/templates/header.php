@@ -13,7 +13,7 @@
             <a href="" class="First-line__link">011 5368 5885</a>
           </li>
           <li class="First-line__item">
-            <a href="" class="but-pedi">pedí online</a>
+            <a href="" class="but but-pedi">pedí online</a>
           </li>
         </ul>
       </div>

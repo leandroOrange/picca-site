@@ -1,30 +1,61 @@
-/*Uppercase*/
+/* Text Transform */
 %upper 
   text-transform: uppercase
-
 .upper
   @extend %upper   
+
+%capi
+  text-transform: capitalize
+.capi 
+  @extend %capi
   
 %but
   display: inline-block
   background: $color-rojo
   color: $color-blanco
-  padding: 8px 25px
+  padding: 10px 30px
   border-radius: 25px
   @extend %upper  
-  font-size: 14px
+  font-size: 12px
   transition: background .3s ease, color .3s ease
   letter-spacing: 1px
   &:hover
     background: darken($color-rojo, 15%)
+    color: $color-blanco
 
 .but  
   @extend %but
 
 
 /*Bold Text*/ 
-%f-bold
+%lato-bold
   font-family: $lato-heavy 
+.lato-bold
+  @extend %lato-bold 
 
-.f-bold
-  @extend %f-bold 
+%saturday 
+  font-family: $saturday-oblique
+.saturday 
+  @extend %saturday 
+
+%aktive-medium
+  font-family: $aktive-medium
+.aktive-medium
+  @extend %aktive-medium    
+
+/* Texts color */
+.t-negro
+  color: $color-negro 
+
+.t-blanco
+  color: $color-blanco
+
+/* Title section */
+%titlesection
+  @extend %aktive-medium   
+  @extend %upper
+  letter-spacing: 3px
+  font-size: 28px
+
+.title-section
+  @extend %titlesection

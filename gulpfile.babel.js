@@ -24,7 +24,7 @@ gulp.task('default', ['css', 'javascript', 'scripts-vendors'], () => {
 
     gulp.watch("./src/js/*.js", ['javascript']).on('change', browserSync.reload);
     gulp.watch("./src/sass/**/*.sass", ['css']);
-    gulp.watch("./dist/templates/*.php").on('change', browserSync.reload);
+    gulp.watch("./dist/templates/**/*.php").on('change', browserSync.reload);
     gulp.watch("./dist/*.php").on('change', browserSync.reload);
 
 });

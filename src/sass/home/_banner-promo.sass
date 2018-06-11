@@ -1,0 +1,39 @@
+.Banner-promo
+  &__article
+    padding: 65px 0
+    background-image: url('../img/home/banners-promo/banner-promo.jpg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    .wrapper-inner
+      img 
+        width: 50px 
+        margin-bottom: 30px
+      h3 
+        @extend %saturday
+        @extend %capi 
+        margin-bottom: 15px
+        font-size: 35px
+      h4
+        @extend %aktive-medium 
+        @extend %upper
+        letter-spacing: 2px
+        font-size: 35px
+        margin-bottom: 5px
+      span 
+        display: block
+        @extend %upper 
+        @extend %aktive-medium 
+        letter-spacing: 2px
+        font-size: 35px
+        line-height: 35px
+        margin-bottom: 25px
+      a 
+        @extend %but
+        background: $color-negro  
+        &:hover
+          background: lighten($color-negro, 15%)

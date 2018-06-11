@@ -1,0 +1,54 @@
+.Lineas
+  &__article
+  &__article-inner
+    position: relative
+    display: inline-block
+    .overlay-lineas
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      display: flex
+      justify-content: center
+      align-items: center
+      background-color: rgba(0,0,0,0)
+      background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, rgba(0,0,0,.6) 100%)
+      transition: background-color .3s $ease-card-lineas
+      &:hover
+        background-color: rgba(0,0,0,.2)
+      &:hover .inner-overlay .wrapper-button 
+        opacity: 1
+        visibility: visible
+        transform: translate3d(0, 0, 0)
+      &:hover .inner-overlay .wrapper-texts
+        transform: translate3d(0, -15px, 0)   
+      .inner-overlay
+        display: block
+        text-align: center
+        color: $color-blanco
+        .wrapper-texts
+          margin: 15px 0
+          position: relative
+          transition: transform .3s $ease-card-lineas 
+          h3 
+            @extend %saturday
+            @extend %capi
+            font-size: 33px
+            margin-bottom: 15px
+          span 
+            @extend %aktive-medium 
+            @extend %upper 
+            font-size: 24px
+            display: block  
+            letter-spacing: 2px 
+        .wrapper-button 
+          opacity: 0
+          visibility: hidden
+          transform: translate3d(0, 15px, 0)
+          transition: opacity .3s $ease-card-lineas .1s, visibility .3s $ease-card-lineas .1s, transform .3s $ease-card-lineas .1s
+          button.btn-lineas
+
+          
+
+          
