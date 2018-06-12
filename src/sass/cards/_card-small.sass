@@ -6,7 +6,7 @@
   &__tipo-linea
     background: $color-negro
     color: $color-blanco  
-    padding: 10px 15px
+    padding: 0px 15px
     display: flex
     justify-content: space-between
     align-items: center
@@ -15,12 +15,29 @@
       @extend %capi
       font-size: 15px
     a 
+      display: inline-block
+      padding: 10px 15px 10px 15px;
       font-size: 15px
       color: $color-blanco  
+      transform: translateX(15px)
       transition: color .3s $ease-links
-      &:hover
-        color: darken($color-blanco, 35%)
-      
+      position: relative
+      overflow: hidden
+      &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: -1
+        background: $color-rojo
+        opacity: 0
+        transform: translate3d(0, 100%, 0)
+        transition: transform .3s ease, opacity .2s ease
+      &:hover:before
+        opacity: 1 
+        transform: translate3d(0, 0, 0)
   &__info
     padding: 15px 15px 25px 15px
     .picada-nombre
@@ -52,18 +69,29 @@
         margin-right: 7px 
     .picada-pedir-precios
       text-align: center
-      .descuento
-        margin-bottom: 10px
-        font-family: $lato-bold
-        span.off 
-        span.tipo-entrega
-          @extend %upper  
       a.btn-pedi-card
         @extend %but
         width: 100%
         padding: 2px 0
-        span 
+        display: flex
+        justify-content: center
+        align-items: center
+        span.precio-btn
           font-family: $lato-bold
           font-size: 23px
+          margin-right: 10px
+        img.carrito-icon
+          width: 19px  
+    .picada-pedir-precios:nth-of-type(3)
+      margin: 20px 0 15px 0
 
-    
+.off-price
+  font-family: $lato-bold
+  font-size: 14px
+  width: 180px
+  text-align: left
+  span.off 
+    text-transform: lowercase
+  span.tipo-entrega
+    @extend %upper
+  

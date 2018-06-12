@@ -26,6 +26,12 @@
 .but  
   @extend %but
 
+.but-black
+  background: $color-negro
+  &:hover
+    background: darken($color-negro, 15%)
+
+
 
 /*Bold Text*/ 
 %lato-bold
@@ -59,3 +65,7 @@
 
 .title-section
   @extend %titlesection
+
+/* Alineacion */  
+.align-center
+  text-align: center  
