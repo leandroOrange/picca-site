@@ -13,15 +13,11 @@
   <body>
 
     <?php include 'templates/header.php';?>
-    <?php include 'templates/home/principal.php';?>
-    <?php include 'templates/home/lineas.php';?>
-    <?php include 'templates/home/picada-de-mes.php';?>
-    <?php include 'templates/home/banner-promo.php';?>
+    <?php include 'templates/landing/lista-picadas-landing.php';?>
     <?php include 'templates/footer.php';?>
-
+   
     <script src="assets/js/vendors/vendors.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/home.js"></script>
 
   </body>
 </html>

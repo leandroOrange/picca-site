@@ -1,0 +1,115 @@
+.Footer
+  &__promos-pagos 
+    background: $gris-claro
+    padding: 60px 0
+  &__news
+    padding: 45px 0  
+  &__title
+    @extend %aktive-medium  
+    @extend %upper
+    font-size: 25px
+    margin-bottom: 25px  
+    letter-spacing: 1px
+  &__copy 
+    background: $color-negro
+    color: #afafaf
+    text-align: center
+    padding: 18px 0
+    span 
+      font-size: 13px
+      a
+        color: #afafaf
+
+
+.Promos-pagos
+  font-size: 15px
+  &__aclaracion
+    margin-top: 40px  
+  &__dcto
+    a.link-locales
+      color: $color-negro
+      border-bottom: 1px solid $color-negro
+      transition: color .2s $ease-links
+      &:hover
+        color: lighten($color-negro, 40%)
+    .descuento-promo
+      display: flex
+      align-items: center
+      margin-bottom: 15px
+      span.porcentaje
+        display: flex
+        justify-content: center
+        align-items: center
+        background: $color-rojo
+        width: 42px
+        height: 42px
+        border-radius: 50%
+        color: $color-blanco
+        @extend %lato-bold 
+        font-size: 13px
+        margin-right: 15px
+      .dcto
+        @extend %aktive-medium  
+        @extend %upper  
+        font-size: 25px
+        letter-spacing: 1px
+  &__tarjetas
+    img
+      max-width: 260px
+      margin-bottom: 21px      
+  &__tel
+    text-align: right   
+    
+        
+
+.News-footer
+  &__wrapper-form
+    margin-bottom: 50px
+  &__form
+    width: 100%
+    position: relative
+    input
+      padding: 8px 17px
+      border-radius: 20px     
+      @extend %upper
+      font-size: 13px
+      letter-spacing: 1px
+    input[type="text"]
+      width: 100%     
+      border: 1px solid #b4b4b4
+    input[type="submit"]
+      position: absolute
+      top: 0
+      right: 0
+      cursor: pointer  
+      border: 1px solid 
+      border-color: $color-negro
+      background: $color-negro
+      color: $color-blanco
+      transition: background .3s $ease-btn, border-color .3s $ease-btn
+      &:hover 
+        background: lighten($color-negro, 15%)
+        border-color: lighten($color-negro, 15%)
+  &__nav
+    margin-bottom: 20px
+  &__redes 
+    ul 
+      li 
+        display: inline-block
+        margin-right: 10px
+        a 
+          img 
+            height: 14px   
+    
+.Nav-footer
+  &__list
+  &__item
+    display: inline-block
+    margin-right: 19px
+  &__link      
+    @extend %upper
+    color: $color-negro
+    font-size: 13px
+    transition: color .3s $ease-links
+    &:hover
+      color: lighten($color-negro, 40%)

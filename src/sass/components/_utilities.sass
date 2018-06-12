@@ -31,11 +31,24 @@
   &:hover
     background: darken($color-negro, 15%)
 
+.but-tel
+  &:before 
+    content: ''
+    display: inline-block
+    background: url(../img/global/tel-nav.svg)
+    background-repeat: no-repeat
+    background-position: center
+    -webkit-background-size: cover
+    background-size: cover
+    margin-right: 9px
+    width: 12px
+    height: 12px     
+
 
 
 /*Bold Text*/ 
 %lato-bold
-  font-family: $lato-heavy 
+  font-family: $lato-bold
 .lato-bold
   @extend %lato-bold 
 
