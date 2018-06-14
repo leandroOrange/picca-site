@@ -1,0 +1,108 @@
+#interna-detalle-carrousel .owl-nav
+  position: absolute
+  top: 0
+  margin: 0
+  right: 5px
+  margin: 0 !important
+  button:nth-of-type(1)
+    margin-right: 5px !important
+  button 
+    background: $color-rojo
+    border-radius: 0
+    transition: background .3s $ease-btn
+    &:hover 
+      background: darken($color-rojo, 15%)
+
+#interna-detalle-carrousel .owl-prev, .owl-next
+  margin: 0 !important
+  span 
+    font-size: 25px
+    padding: 0px 16px
+    line-height: 25px
+    color: $color-blanco
+
+#interna-detalle-carrousel .owl-thumbs
+  button 
+    width: 25%
+    border: 0
+    cursor: pointer
+    padding: 0 5px 
+    background: $color-blanco
+
+#interna-detalle-carrousel .owl-thumb-item img 
+  width: 100%
+  height: auto
+  
+#interna-detalle-carrousel .owl-stage-outer
+  margin: 0 5px
+
+#interna-detalle-carrousel .owl-thumbs  
+  margin-top: 12px
+  
+.Interna-Detalle
+  padding: 80px 0
+  .nombre-producto
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 15px
+    h3 
+      @extend %lato-bold
+      @extend %capi
+      font-size: 25px
+    span.precio
+      @extend %lato-bold
+      text-decoration: line-through
+      font-size: 25px
+  .texto-info-producto
+    border-top: 1px solid #c9c9c9
+    font-size: 15px
+    padding-top: 35px
+    p 
+      margin-bottom: 15px   
+    span
+      display: block
+      @extend %capi
+
+
+  
+
+.wrapper-select-tamano
+  position: relative
+  width: 50%
+  &:before 
+    content: ''
+    position: absolute
+    top: 50%
+    transform: translate3d(0, -50%, 0)
+    background: url(../img/cards/persona.svg)
+    -webkit-background-size: cover
+    background-size: cover
+    width: 17px
+    height: 17px 
+  &:after
+    content: ''
+    position: absolute
+    background: url(../img/global/flecha-abajo.svg)
+    -webkit-background-size: cover
+    background-size: cover
+    width: 17px
+    height: 17px
+    top: 0
+    pointer-events: none 
+    top: 50%
+    right: 0
+    transform: translate3d(0, -50%,0)
+
+select.select-tamano-detalle
+  width: 100%
+  padding: 8px 15px 8px 30px
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  border: 0
+  @extend %lato-bold
+  @extend %capi
+
+option 
+  border: 0      

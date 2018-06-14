@@ -25,7 +25,14 @@ a
 
 button
   border: none
-  cursor: pointer    
+  cursor: pointer   
+  &:focus
+    outline: 0
+ 
+select
+  &:focus
+    outline: 0
+
 
 figure
   margin: 0  
@@ -36,9 +43,7 @@ input
 
 .first-element
   margin-top: 130px
-
-.card-wrapper-margin
-  margin-bottom: 50px    
+  
 
 ::-moz-selection
   background: #ffffff

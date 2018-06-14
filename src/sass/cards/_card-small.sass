@@ -69,29 +69,22 @@
         margin-right: 7px 
     .picada-pedir-precios
       text-align: center
-      a.btn-pedi-card
-        @extend %but
-        padding: 5px 0
-        display: flex
-        justify-content: center
-        align-items: center
-        span.precio-btn
-          @extend %lato-bold 
-          font-size: 23px
-          margin-right: 10px
-        img.carrito-icon
-          width: 19px  
     .picada-pedir-precios:nth-of-type(3)
       margin: 20px 0 15px 0
 
-a.btn-full-w
-  width: 100%
-
-a.btn-medium-w
-  width: 70%    
-  margin: 0 auto
-
-
+a.btn-pedi-card
+  @extend %but
+  padding: 5px 0
+  display: flex
+  justify-content: center
+  align-items: center
+  span.precio-btn
+    @extend %lato-bold 
+    font-size: 23px
+    margin-right: 10px
+  img.carrito-icon
+    width: 19px  
+  
 .off-price
   @extend %lato-bold 
   font-size: 14px
@@ -102,3 +95,15 @@ a.btn-medium-w
   span.tipo-entrega
     @extend %upper
   
+
+// Modificadores
+
+a.btn-full-w
+  width: 100%
+
+a.btn-medium-w
+  width: 70%    
+  margin: 0 auto
+
+.card-wrapper-margin
+  margin-bottom: 50px    

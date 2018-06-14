@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$("#interna-detalle-carrousel").owlCarousel({loop:!0,nav:!0,dots:!1,items:1,thumbs:!0,thumbImage:!0,thumbContainerClass:"owl-thumbs",thumbItemClass:"owl-thumb-item"})});
