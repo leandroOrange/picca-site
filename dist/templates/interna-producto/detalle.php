@@ -31,8 +31,31 @@
           </div>
         </div>
         <div class="botones-pedido">
-          <div class="primer-btn">
-            
+          <div class="wrapper-btn-detalle primer-btn">
+            <button class="btn-precio">
+              <div class="off-btn off-price">
+                <span class="off">20% off</span> 
+                <span class="tipo-entrega"> retirás vos</span>
+              </div>
+              <span class="precio-btn">$430</span>
+              <div class="icon-status"></div>
+            </button>
+            <div class="count">
+              
+            </div>  
+          </div>
+          <div class="wrapper-btn-detalle">
+            <button class="btn-precio">
+              <div class="off-btn off-price">
+                <span class="off">20% off</span> 
+                <span class="tipo-entrega"> retirás vos</span>
+              </div>
+              <span class="precio-btn">$430</span>
+              <div class="icon-status"></div>
+            </button>
+            <div class="count">
+              
+            </div>  
           </div>
         </div>
         <div class="texto-info-producto">

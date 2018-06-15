@@ -19,24 +19,24 @@
               comen 2 / pican 4
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> delivery</span>
                 </div>
                 <span class="precio-btn">$656</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> retirás vos</span>
                 </div>
                 <span class="precio-btn">$430</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
           </div>
         </article>
@@ -59,24 +59,24 @@
               comen 2 / pican 4
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> delivery</span>
                 </div>
                 <span class="precio-btn">$656</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> retirás vos</span>
                 </div>
                 <span class="precio-btn">$430</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
           </div>
         </article>
@@ -99,24 +99,24 @@
               comen 2 / pican 4
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> delivery</span>
                 </div>
                 <span class="precio-btn">$656</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> retirás vos</span>
                 </div>
                 <span class="precio-btn">$430</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
           </div>
         </article>
@@ -139,24 +139,24 @@
               comen 2 / pican 4
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> delivery</span>
                 </div>
                 <span class="precio-btn">$656</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
             <div class="picada-pedir-precios">
-              <a href="" class="btn-pedi-card btn-medium-w">
+              <button class="btn-precio btn-medium-w">
                 <div class="off-btn off-price">
                   <span class="off">20% off</span> 
                   <span class="tipo-entrega"> retirás vos</span>
                 </div>
                 <span class="precio-btn">$430</span>
-                <img class="carrito-icon" src="assets/img/cards/carrito-btn.svg" alt="">
-              </a>
+                <div class="icon-status"></div>
+              </button>
             </div>
           </div>
         </article>

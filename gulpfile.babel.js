@@ -17,7 +17,7 @@ gulp.task('default', ['css', 'javascript', 'scripts-vendors'], () => {
 
     browserSync.init({
       /* server: "./dist", */
-      proxy: "http://192.168.0.25/orange/piccadely-web/site/dist/"
+      proxy: "http://localhost/orange/picca-site/dist/"
       /* open: "external",
       tunnel: "orange" */ 
     });

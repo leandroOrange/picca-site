@@ -1,0 +1,82 @@
+.btn-precio
+  @extend %but
+  padding: 5px 0
+  display: flex
+  justify-content: center
+  align-items: center
+ 
+
+// Icon Status Buttons
+.btn-precio.check
+  .icon-status
+    &:before
+      transform: translate3d(0, -100%, 0)
+      opacity: 0
+      visibility: hidden
+    &:after
+      transform: translate3d(0, 0, 0)
+      opacity: 1
+      visibility: visible 
+
+.icon-status
+  width: 19px 
+  height: 19px 
+  position: relative
+  overflow: hidden
+  &:before 
+    content: ''
+    position: absolute
+    background: url('../img/cards/carrito-btn.svg')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+    visibility: visible
+    transition: transform .3s ease, opacity .3s ease, visibility .3s ease
+  &:after
+    content: ''
+    position: absolute
+    background: url('../img/cards/check.svg')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100%
+    height: 100%  
+    top: 0
+    left: 0
+    transform: translate3d(0, 100%, 0)
+    opacity: 0
+    visibility: hidden
+    transition: transform .3s ease, opacity .3s ease, visibility .3s ease
+  /* img.carrito-icon
+    width: 100% */
+
+// Precio button
+span.precio-btn
+  @extend %lato-bold 
+  font-size: 23px
+  margin-right: 10px 
+
+// Descuento button
+.off-price
+  @extend %lato-bold 
+  font-size: 14px
+  width: 180px
+  text-align: left
+  span.off 
+    text-transform: lowercase
+  span.tipo-entrega
+    @extend %upper
+  
+
+// Modificadores
+
+.btn-full-w
+  width: 100%
+
+.btn-medium-w
+  width: 70%    
+  margin: 0 auto

@@ -65,8 +65,19 @@
       @extend %capi
 
 
+.botones-pedido
+  padding: 27px 0 20px 0
+  .primer-btn
+    margin-bottom: 15px
+  .wrapper-btn-detalle
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    button.btn-precio
+      width: 65%
   
-
+// Tamano de Datalle
 .wrapper-select-tamano
   position: relative
   width: 50%
@@ -103,6 +114,7 @@ select.select-tamano-detalle
   border: 0
   @extend %lato-bold
   @extend %capi
+  background: transparent
 
 option 
   border: 0      
