@@ -18,6 +18,8 @@
     
     <?php include 'templates/interna-producto/detalle.php';?>
 
+    <?php include 'templates/banner-promo-a.php';?>
+
     <?php include 'templates/footer.php';?>
    
     <script src="assets/js/vendors/vendors.js"></script>
