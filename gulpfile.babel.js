@@ -16,13 +16,10 @@ browserSync.create();
 gulp.task('default', ['css', 'javascript', 'scripts-vendors'], () => {
 
     browserSync.init({
-      /* server: "./dist", */
-      proxy: "http://localhost/orange/picca-site/dist/"
-      /* open: "external",
-      tunnel: "orange" */ 
+      proxy: "http://localhost/orange/piccadely-web/site/dist/"
     });
 
-    gulp.watch("./src/js/*.js", ['javascript']).on('change', browserSync.reload);
+    gulp.watch("./src/js/**/*.js", ['javascript']).on('change', browserSync.reload);
     gulp.watch("./src/sass/**/*.sass", ['css']);
     gulp.watch("./dist/templates/**/*.php").on('change', browserSync.reload);
     gulp.watch("./dist/*.php").on('change', browserSync.reload);
@@ -31,7 +28,7 @@ gulp.task('default', ['css', 'javascript', 'scripts-vendors'], () => {
 
 
 gulp.task('javascript', () => {
-  return gulp.src('./src/js/*.js')
+  return gulp.src('./src/js/**/*.js')
   .pipe(waits(800))
   .pipe(babel())
   .pipe(plumber())

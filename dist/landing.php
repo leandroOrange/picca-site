@@ -18,6 +18,7 @@
    
     <script src="assets/js/vendors/vendors.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/pages.js"></script>
 
   </body>
 </html>

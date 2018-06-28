@@ -1,0 +1,20 @@
+.Promociones
+  &__grid-wrapper
+    display: grid
+    width: 100%
+    height: 600px
+    grid-template-columns: 1fr 2fr
+    grid-template-rows: 1fr 1fr
+    grid-gap: 15px
+    .promo-1
+      grid-column: 1 / 2
+      grid-row: 1 / 2
+      background: #ebc874
+    .promo-2
+      grid-column: 2 / -1
+      grid-row: 1 / -1
+      background: #145365
+    .promo-3 
+      grid-column: 1 / 2
+      grid-row: 2 / -1
+      background: red

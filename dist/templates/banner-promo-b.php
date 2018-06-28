@@ -1,8 +1,8 @@
-<section class="Banner-promo">
+<section class="Banner-promo-b">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <article class="Banner-promo__article">
+      <div id="banner-promo-b-cols">
+        <article class="Banner-promo-b__article">
           <div class="wrapper-inner">
             <img src="assets/img/home/banners-promo/aceituna.svg" alt="">
             <h3 class="t-negro">ahora saludables</h3>

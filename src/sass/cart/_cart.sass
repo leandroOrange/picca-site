@@ -1,0 +1,87 @@
+.Cart 
+  display: none
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  width: 435px
+  background: #f8f7f7
+  z-index: 20
+  overflow: auto
+  &__header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background: $color-rojo
+    padding: 8px 20px
+    .pedido-status
+      &__inner
+        color: $color-blanco
+        @extend %upper
+        font-size: 12px
+        letter-spacing: 1px
+        &:before
+          content: ''
+          display: inline-block
+          background: url(../img/cards/carrito-btn.svg)
+          background-repeat: no-repeat
+          background-position: center
+          -webkit-background-size: cover
+          background-size: cover
+          margin-right: 9px
+          width: 16px
+          height: 16px 
+          transform: translate3d(0, 2px, 0)
+    .pedido-close
+      &__btn
+        color: $color-blanco
+        background: transparent 
+        @extend %upper
+        position: relative
+        &:hover:before
+          transform: translate3d(-130%, -50%, 0)
+          opacity: 1
+          visibility: visible
+        &:before
+          content: 'Cerrar'
+          text-transform: lowercase
+          position: absolute
+          left: 0
+          top: 50%
+          font-size: 13px
+          text-transform: capitalize
+          letter-spacing: 1px
+          transform: translate3d(-110%, -50%, 0)
+          opacity: 0
+          visibility: hidden
+          transition: opacity .3s ease, visibility .3s ease, transform .3s ease
+      &__icon
+        width: 13px   
+  &__body-pedido
+    padding: 0 20px 20px 20px
+    .list-cart-productos
+      &__item 
+        display: grid
+        grid-template-columns: 7% 50% 23% 20%   
+        padding: 28px 0
+        border-bottom: 1px solid #e6e6e6  
+        font-size: 15px
+        .remove-pedido
+          button
+            background: transparent
+            img
+              width: 13px
+        .producto
+          @extend %capi
+        .precio
+          @extend %lato-bold 
+          justify-self: end
+    .total
+      display: flex
+      justify-content: space-between    
+      @extend %lato-bold  
+      @extend %capi
+      font-size: 17px 
+      margin: 20px 0
+    .btn-cart-continuar
+      width: 100%    

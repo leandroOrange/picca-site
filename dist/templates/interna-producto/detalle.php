@@ -1,4 +1,4 @@
-<section class="first-element Interna-Detalle">
+<section class="Interna-Detalle">
   <div class="container">
     <div class="row">
       <div class="col-lg-7">

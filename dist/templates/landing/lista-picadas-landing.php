@@ -1,4 +1,4 @@
-<section id="landing" class="first-element Landing-picadas">
+<section id="landing" class="Landing-picadas">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 card-wrapper-margin">

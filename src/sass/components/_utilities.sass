@@ -36,19 +36,29 @@
   &:hover
     background: darken($color-rojo-alternativo, 15%)    
 
+
 .but-tel
+  &:before 
+    background: url(../img/global/tel-nav.svg)  
+    margin-right: 9px
+    width: 12px
+    height: 12px   
+
+.but-cart
+  &:before 
+    background: url(../img/cards/carrito-btn.svg)
+    margin-right: 9px
+    width: 14px
+    height: 14px         
+
+.but-icon
   &:before 
     content: ''
     display: inline-block
-    background: url(../img/global/tel-nav.svg)
     background-repeat: no-repeat
     background-position: center
     -webkit-background-size: cover
     background-size: cover
-    margin-right: 9px
-    width: 12px
-    height: 12px     
-
 
 
 /*Bold Text*/ 

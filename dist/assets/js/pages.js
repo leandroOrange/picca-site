@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){function e(){var e=$("#header").outerHeight();i.css({"margin-top":e+"px"})}var t=$(window),i=$("section").first();e(),t.on("resize",e)});

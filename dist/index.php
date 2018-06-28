@@ -12,11 +12,12 @@
   </head>
   <body>
 
+    <?php include 'templates/cart.php';?>
     <?php include 'templates/header.php';?>
     <?php include 'templates/home/principal.php';?>
     <?php include 'templates/home/lineas.php';?>
     <?php include 'templates/home/picada-de-mes.php';?>
-    <?php include 'templates/home/banner-promo.php';?>
+    <?php include 'templates/banner-promo-b.php';?>
     <?php include 'templates/footer.php';?>
 
     <script src="assets/js/vendors/vendors.js"></script>
