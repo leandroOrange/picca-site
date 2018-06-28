@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$(".Banner-promo-b").addClass("padd-promociones-page");$("#banner-promo-b-cols").addClass("col-lg-12")});
+"use strict";$(document).ready(function(){$(".Banner-promo-b").addClass("Banner-promo-b-padd-promociones");$(".Banner-promo-a").addClass("Banner-promo-a-padd-promociones");$("#banner-promo-b-cols").addClass("col-lg-12")});

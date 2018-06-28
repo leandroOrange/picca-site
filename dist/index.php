@@ -17,7 +17,7 @@
     <?php include 'templates/home/principal.php';?>
     <?php include 'templates/home/lineas.php';?>
     <?php include 'templates/home/picada-de-mes.php';?>
-    <?php include 'templates/banner-promo-b.php';?>
+    <?php include 'templates/banner-promos/banner-promo-b.php';?>
     <?php include 'templates/footer.php';?>
 
     <script src="assets/js/vendors/vendors.js"></script>

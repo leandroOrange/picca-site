@@ -13,61 +13,12 @@
   <body>
 
     <?php include 'templates/header.php';?>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <?php include 'templates/thanks/thanks-page.php';?>
+    <?php include 'templates/footer.php';?>
 
     <script src="assets/js/vendors/vendors.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/other-pages-header.js"></script>
+    <script src="assets/js/pages.js"></script>
 
   </body>
 </html>

@@ -13,15 +13,13 @@
   <body>
 
     <?php include 'templates/header.php';?>
-    <?php include 'templates/banner-promos/banner-promo-b.php';?>
-    <?php include 'templates/promociones/promociones.php';?>
-    <?php include 'templates/banner-promos/banner-promo-a.php';?>
+    <?php include 'templates/como-pido/como-pedir-picada.php';?>
     <?php include 'templates/footer.php';?>
-   
+
     <script src="assets/js/vendors/vendors.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/pages.js"></script>
-    <script src="assets/js/promociones/promociones-page.js"></script>
+    <script src="assets/js/como-pido/accordeon.js"></script>
 
   </body>
 </html>

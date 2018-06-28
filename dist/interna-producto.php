@@ -15,11 +15,8 @@
   <body>
 
     <?php include 'templates/header.php';?>
-    
     <?php include 'templates/interna-producto/detalle.php';?>
-
-    <?php include 'templates/banner-promo-a.php';?>
-
+    <?php include 'templates/banner-promos/banner-promo-a.php';?>
     <?php include 'templates/footer.php';?>
    
     <script src="assets/js/vendors/vendors.js"></script>
@@ -27,6 +24,7 @@
     <script src="assets/js/thumb.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/pages.js"></script>
+    <script src="assets/js/interna-producto/interna-producto.js"></script>
     <script src="assets/js/carrousel.js"></script>
 
   </body>

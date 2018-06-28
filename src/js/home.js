@@ -4,7 +4,7 @@ $(document).ready(function(){
   $header.addClass('Header--home');
 
   const $BannerBPadd = $('.Banner-promo-b');
-  $BannerBPadd.addClass('padd-promociones-home');
+  $BannerBPadd.addClass('Banner-promo-b-padd-home');
 
   const $bannerBCols = $('#banner-promo-b-cols');
   $bannerBCols.addClass('col-lg-10');
